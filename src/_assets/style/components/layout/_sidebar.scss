@@ -1,0 +1,11 @@
+.sidebar {
+  .MuiDrawer-root {
+    .MuiPaper-root {
+      width: $sidebar-width;
+
+      &.MuiDrawer-paper {
+        top: $header-height;
+      }
+    }
+  }
+}

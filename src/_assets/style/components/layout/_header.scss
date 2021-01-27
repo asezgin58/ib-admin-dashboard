@@ -1,0 +1,46 @@
+$header-icon-size: 20px;
+
+.header {
+  height: $header-height;
+
+  .title-area {
+    display: flex;
+    align-items: center;
+
+    .title {
+      margin-bottom: 0;
+    }
+
+    .logo-area {
+      cursor: pointer;
+
+      img {
+        height: 30px;
+      }
+
+      .logo {
+        @include media-breakpoint-up(lg) {
+          margin-right: 10px;
+        }
+
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+
+      .logo-mini {
+        @include media-breakpoint-down(md) {
+          margin-right: 5px;
+        }
+
+        @include media-breakpoint-up(lg) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  i {
+    font-size: $header-icon-size !important;
+  }
+}

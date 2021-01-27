@@ -1,0 +1,21 @@
+.MuiTableContainer-root {
+  .MuiTable-root {
+
+    /** thead*/
+    .MuiTableHead-root {
+
+      .MuiTableRow-root {
+
+        &.MuiTableRow-head {
+
+          .MuiTableCell-root {
+
+            &.MuiTableCell-head {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
