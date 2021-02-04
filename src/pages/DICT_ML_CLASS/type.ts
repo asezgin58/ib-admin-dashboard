@@ -1,10 +1,3 @@
-export interface IUser {
-    id: number;
-    email: string;
-    first_name: string;
-    last_name: string;
-    avatar: string;
-}
 export interface IDict_ml_class{
     oid :string;
     status: string;

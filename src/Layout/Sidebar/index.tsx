@@ -15,6 +15,8 @@ const Sidebar: FC<ISidebarProps> = () => {
         {title: 'Author', link: '/author'},
         {title: 'ExamplePage', link: '/example-page'},
         {title: 'Class', link: '/class'},
+        {title: 'DICT_ML_CLASS',link:'/DICT_ML_CLASS'},
+        {title: 'DICT_ML_CLASS_METHOD',link:'/DICT_ML_CLASS_METHOD'},
     ];
 
     return (

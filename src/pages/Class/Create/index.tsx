@@ -21,7 +21,7 @@ const Create: FC<any> = () => {
 
     const handleSubmit = async (data: any) => {
         setState(data);
-
+        console.log(data);
         const response = await classCreate({
             data: data
         });

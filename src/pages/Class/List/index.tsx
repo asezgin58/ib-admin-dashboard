@@ -35,19 +35,19 @@ const Index: FC<any> = () => {
         if (!userList.length) {
             getClass();
         }
-        // eslint-disable-next-line
+         //eslint-disable-next-line
     }, []);
 
     const deleteUser = async (userId: number) => {
 
         console.log("---delete ", userId);
 
-        // const response: any = await deleteClass({
-        //     data: userId
-        // });
-        // if (response?.status === 200) {
-        //     getClass();
-        // }
+         const response: any = await deleteClass({
+             data: userId
+         });
+         if (response?.status === 200) {
+             getClass();
+         }
     };
 
     return (
