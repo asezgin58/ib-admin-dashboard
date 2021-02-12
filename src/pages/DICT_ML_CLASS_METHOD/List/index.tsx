@@ -46,12 +46,14 @@ const Index: FC<any> =() =>{
 
     const deleteClassMethod=async()=>{
         const response:any = await delete_dict_ml_class_method();
+        
         if(response?.status ===200){
             alert('silindi');
             getDict_ml_class_method();
             setDelId(null);
         }
     }
+    
     useEffect(()=>{
         if(delId!==null){
             deleteClassMethod();
